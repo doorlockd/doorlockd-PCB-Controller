@@ -1,3 +1,3 @@
-Boardname version 0.0, components 0000-00-00
+Boardname version 2.0b components 2025-06-17
 ============================================
- - Initial version.
+ - Beta version, release candidate for version 2.0
