@@ -4113,7 +4113,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4126,7 +4126,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7551,7 +7551,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7564,7 +7564,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15319,7 +15319,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15332,7 +15332,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17686,7 +17686,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17699,7 +17699,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21665,7 +21665,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21678,7 +21678,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
