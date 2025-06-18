@@ -60,10 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "extra_footprint|122060000|77140000|6205182d-a142-4397-99a9-be3096bd7ea9|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "holes_co_located|196190000|61900000|1266864a-b09b-487c-8dc1-fda3f8ff20ec|cdf9f3eb-6a7c-4c97-adc1-95db1e69dd0a",
           ""
         ],
