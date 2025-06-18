@@ -12699,7 +12699,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd board_only)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
 			(unlocked yes)
