@@ -14875,7 +14875,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Audio out"
+		(property "Value" "Lumberg 1503 30"
 			(at 172.72 28.5749 0)
 			(effects
 				(font
@@ -14903,6 +14903,15 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 165.1 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" "Lumberg 1503 30 and 07 are pin-compatible"
 			(at 165.1 26.67 0)
 			(effects
 				(font

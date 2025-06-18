@@ -3339,7 +3339,7 @@
 				)
 			)
 		)
-		(property "Value" "Audio out"
+		(property "Value" "Lumberg 1503 30"
 			(at 2.8 10 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3373,6 +3373,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Note" "Lumberg 1503 30 and 07 are pin-compatible"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce3347cf-a9d0-48c3-860f-dc3f101ff208")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
