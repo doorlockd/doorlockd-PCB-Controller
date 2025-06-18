@@ -7308,10 +7308,6 @@
 		(uuid "2fcca982-b858-4776-a286-98efae04426d")
 	)
 	(no_connect
-		(at 44.45 67.31)
-		(uuid "3e49f2cc-96aa-4126-bb7a-d6aec8bb89c9")
-	)
-	(no_connect
 		(at 44.45 36.83)
 		(uuid "44b16ba5-0017-445d-ac39-6c4b2bb86e0a")
 	)
@@ -7330,10 +7326,6 @@
 	(no_connect
 		(at 80.01 80.01)
 		(uuid "b05e0e01-1780-43c4-b70c-60b607869dc0")
-	)
-	(no_connect
-		(at 80.01 67.31)
-		(uuid "c8f2eec6-7af7-48cd-8df7-fb8acf32372a")
 	)
 	(no_connect
 		(at 44.45 57.15)
@@ -8571,6 +8563,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 67.31) (xy 87.63 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "694f39ef-9d32-4d01-b4c0-059a3b760fe2")
+	)
+	(wire
+		(pts
 			(xy 63.5 181.61) (xy 63.5 168.91)
 		)
 		(stroke
@@ -9271,7 +9273,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 69.85) (xy 105.41 69.85)
+			(xy 80.01 69.85) (xy 87.63 69.85)
 		)
 		(stroke
 			(width 0)
@@ -9401,7 +9403,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 69.85) (xy 44.45 69.85)
+			(xy 34.29 69.85) (xy 44.45 69.85)
 		)
 		(stroke
 			(width 0)
@@ -9528,6 +9530,16 @@
 			(type default)
 		)
 		(uuid "c4b44e24-027f-4523-9fb2-499001655917")
+	)
+	(wire
+		(pts
+			(xy 34.29 67.31) (xy 44.45 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6764d38-4202-46e9-bb8a-0e3edbfe999e")
 	)
 	(wire
 		(pts
@@ -10494,7 +10506,7 @@
 			)
 		)
 	)
-	(global_label "EXP_P41"
+	(global_label "ROCKPIS_UART3_TX"
 		(shape input)
 		(at 147.32 68.58 180)
 		(fields_autoplaced yes)
@@ -10506,7 +10518,7 @@
 		)
 		(uuid "1b018618-4fe0-469d-afd3-17b689542d24")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.7039 68.58 0)
+			(at 126.7857 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11614,7 +11626,7 @@
 	)
 	(global_label "EXP_P41"
 		(shape input)
-		(at 22.86 69.85 180)
+		(at 34.29 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11624,7 +11636,7 @@
 		)
 		(uuid "a0f8dc6e-62ff-4ba6-a052-6be5ff399918")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 12.2439 69.85 0)
+			(at 23.6739 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11656,7 +11668,7 @@
 			)
 		)
 	)
-	(global_label "EXP_P42"
+	(global_label "ROCKPIS_UART3_RX"
 		(shape input)
 		(at 165.1 68.58 0)
 		(fields_autoplaced yes)
@@ -11668,7 +11680,7 @@
 		)
 		(uuid "a982f4b1-a30b-48d9-a99e-6ec406604175")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.7161 68.58 0)
+			(at 185.9367 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11702,7 +11714,7 @@
 	)
 	(global_label "EXP_P42"
 		(shape input)
-		(at 105.41 69.85 0)
+		(at 87.63 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11712,7 +11724,7 @@
 		)
 		(uuid "aa71fe99-9f5c-418d-bb7f-1ad952cd57d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.0261 69.85 0)
+			(at 98.2461 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12008,6 +12020,28 @@
 			)
 		)
 	)
+	(global_label "ROCKPIS_UART3_RX"
+		(shape input)
+		(at 87.63 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d30e15da-222b-4101-9664-1143bde37244")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.4667 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IO_1"
 		(shape input)
 		(at 26.67 165.1 0)
@@ -12112,6 +12146,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROCKPIS_UART3_TX"
+		(shape input)
+		(at 34.29 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9843f3a-88ca-4bfb-87dc-091e2de079d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 13.7557 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -13160,7 +13216,7 @@
 		(lib_id "Graphic:Logo_Open_Hardware_Small")
 		(at 275.59 175.26 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -13208,14 +13264,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 275.59 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(instances
@@ -18010,7 +18058,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 41.148 43.434 0)
+			(at 19.304 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
