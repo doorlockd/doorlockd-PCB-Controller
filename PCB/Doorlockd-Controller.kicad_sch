@@ -419,6 +419,119 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -6892,7 +7005,7 @@
 		)
 		(uuid "1d75ea29-1a12-4dfc-a36d-1fa20d2608f4")
 	)
-	(text "Power Output 1 5V/Vin\n+ compatibilty section \nfor 1.8V of MilkV "
+	(text "Output 6 5V/Vin\n+ compatibilty section \nfor 1.8V of MilkV "
 		(exclude_from_sim no)
 		(at 99.822 103.886 0)
 		(effects
@@ -6916,7 +7029,7 @@
 	)
 	(text "MilkV 1V8 GPIO pinout, \ncompatible with level shifter TXB0108 \n(https://www.adafruit.com/product/395)"
 		(exclude_from_sim no)
-		(at 253.746 129.794 0)
+		(at 255.27 131.064 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6956,7 +7069,7 @@
 		)
 		(uuid "8b19b768-77cd-4e36-96af-1d1b0a14fa4e")
 	)
-	(text "Power Output 1 5V/Vin\n+ compatibilty section \nfor 1.8V of MilkV "
+	(text "Output 5 5V/Vin\n+ compatibilty section \nfor 1.8V of MilkV "
 		(exclude_from_sim no)
 		(at 14.732 103.886 0)
 		(effects
@@ -6966,6 +7079,17 @@
 			(justify left bottom)
 		)
 		(uuid "9038530b-8e13-49c3-85d3-c33782173ac7")
+	)
+	(text "Level shifter pinout:\nP29 VCCA (1V8)\nP27 OE   (0V)\nP43 VCCB (3V3)"
+		(exclude_from_sim no)
+		(at 259.842 144.78 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "9e934f40-f4c8-4d4c-ab08-fe8350b7cdfe")
 	)
 	(text "Proto-, Expiremental-, StripBoard area\n"
 		(exclude_from_sim no)
@@ -7599,7 +7723,7 @@
 	)
 	(polyline
 		(pts
-			(xy 283.21 162.56) (xy 187.96 162.56)
+			(xy 283.21 165.1) (xy 187.96 165.1)
 		)
 		(stroke
 			(width 0)
@@ -8189,7 +8313,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 81.28) (xy 262.89 81.28)
+			(xy 265.43 81.28) (xy 266.7 81.28)
 		)
 		(stroke
 			(width 0)
@@ -8609,7 +8733,7 @@
 	)
 	(polyline
 		(pts
-			(xy 283.21 148.59) (xy 283.21 162.56)
+			(xy 283.21 148.59) (xy 283.21 165.1)
 		)
 		(stroke
 			(width 0)
@@ -8889,6 +9013,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 162.56) (xy 248.92 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e1af801-ad28-421d-bacd-553b8c5794e8")
+	)
+	(wire
+		(pts
 			(xy 132.08 105.41) (xy 128.27 105.41)
 		)
 		(stroke
@@ -9129,7 +9263,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 78.74) (xy 262.89 78.74)
+			(xy 265.43 78.74) (xy 266.7 78.74)
 		)
 		(stroke
 			(width 0)
@@ -9559,7 +9693,7 @@
 	)
 	(polyline
 		(pts
-			(xy 187.96 74.93) (xy 187.96 162.56)
+			(xy 187.96 74.93) (xy 187.96 165.1)
 		)
 		(stroke
 			(width 0)
@@ -10446,7 +10580,7 @@
 			)
 		)
 	)
-	(global_label "POWER_IO_1"
+	(global_label "OUT_5"
 		(shape input)
 		(at 87.63 54.61 0)
 		(fields_autoplaced yes)
@@ -10458,7 +10592,7 @@
 		)
 		(uuid "0c089817-2202-4acb-8396-6e5cce3a6035")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.5119 54.61 0)
+			(at 95.7667 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10730,7 +10864,29 @@
 			)
 		)
 	)
-	(global_label "EXP_I2C_SCL"
+	(global_label "EXP_P43"
+		(shape input)
+		(at 246.38 162.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3d9c3924-f79c-44d5-b698-eef78ee9abad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 235.7639 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EXP_P05_I2C_SCL"
 		(shape input)
 		(at 34.29 24.13 180)
 		(fields_autoplaced yes)
@@ -10742,7 +10898,7 @@
 		)
 		(uuid "3daa95d5-c891-4351-b400-c386b131a5a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.8034 24.13 0)
+			(at 15.1468 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10774,7 +10930,7 @@
 			)
 		)
 	)
-	(global_label "EXP_I2C_SDA"
+	(global_label "EXP_P03_I2C_SDA"
 		(shape input)
 		(at 34.29 21.59 180)
 		(fields_autoplaced yes)
@@ -10786,7 +10942,7 @@
 		)
 		(uuid "4620eeaa-9167-4045-a240-5855ed1fc4a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.7429 21.59 0)
+			(at 15.0863 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10884,7 +11040,7 @@
 			)
 		)
 	)
-	(global_label "POWER_IO_1"
+	(global_label "OUT_5"
 		(shape input)
 		(at 27.94 109.22 180)
 		(fields_autoplaced yes)
@@ -10896,7 +11052,7 @@
 		)
 		(uuid "5ad33e55-f64a-426e-8849-48abb1239ec7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.0581 109.22 0)
+			(at 19.8033 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11280,7 +11436,7 @@
 			)
 		)
 	)
-	(global_label "POWER_IO_2"
+	(global_label "OUT_6"
 		(shape input)
 		(at 87.63 52.07 0)
 		(fields_autoplaced yes)
@@ -11292,7 +11448,7 @@
 		)
 		(uuid "7b5e9628-722e-4017-8fff-18400b5180bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.5119 52.07 0)
+			(at 95.7667 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11412,9 +11568,9 @@
 			)
 		)
 	)
-	(global_label "EXP_I2C_SDA"
+	(global_label "EXP_P03_I2C_SDA"
 		(shape input)
-		(at 261.62 78.74 180)
+		(at 265.43 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11424,7 +11580,7 @@
 		)
 		(uuid "89e39d8b-47e8-489a-bb8d-00046e50658b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.0729 78.74 0)
+			(at 246.2263 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11456,9 +11612,9 @@
 			)
 		)
 	)
-	(global_label "EXP_I2C_SCL"
+	(global_label "EXP_P05_I2C_SCL"
 		(shape input)
-		(at 261.62 81.28 180)
+		(at 265.43 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11468,7 +11624,7 @@
 		)
 		(uuid "93c44936-299b-4ec2-8864-2a59bd4a7010")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.1334 81.28 0)
+			(at 246.2868 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11828,7 +11984,7 @@
 			)
 		)
 	)
-	(global_label "POWER_IO_2"
+	(global_label "OUT_6"
 		(shape input)
 		(at 113.03 109.22 180)
 		(fields_autoplaced yes)
@@ -11840,7 +11996,7 @@
 		)
 		(uuid "c5a9e4e4-d1d9-4a17-92dc-f14def19c5c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.1481 109.22 0)
+			(at 104.8933 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13035,7 +13191,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GPIO 1"
+		(property "Value" "IO 1"
 			(at 36.322 186.6646 0)
 			(effects
 				(font
@@ -13309,7 +13465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole_3.2x4.32mm_Oval_22.5deg:MountingHole_3.2x4.32mm_Oval_22.5deg_Rbottom"
+		(property "Footprint" "MountingHole_3.2x4.32mm_Oval_22.5deg:MountingHole_3.2x4.32mm_Oval_22.5deg"
 			(at 254 67.31 0)
 			(effects
 				(font
@@ -13551,7 +13707,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 267.97 78.74 0)
+		(at 271.78 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13560,7 +13716,7 @@
 		(fields_autoplaced yes)
 		(uuid "032dada6-28e6-410c-9e5b-62223d7ab369")
 		(property "Reference" "J21"
-			(at 270.51 78.7399 0)
+			(at 274.32 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13569,7 +13725,7 @@
 			)
 		)
 		(property "Value" "I2C"
-			(at 270.51 81.2799 0)
+			(at 274.32 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13578,7 +13734,7 @@
 			)
 		)
 		(property "Footprint" "StripBoard:StripBoard_1x02_P2.54mm"
-			(at 267.97 78.74 0)
+			(at 271.78 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13587,7 +13743,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 267.97 78.74 0)
+			(at 271.78 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13596,7 +13752,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 267.97 78.74 0)
+			(at 271.78 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14337,7 +14493,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MountingHole_3.2x4.32mm_Oval_22.5deg:MountingHole_3.2x4.32mm_Oval_22.5deg_Lbottom"
+		(property "Footprint" "MountingHole_3.2x4.32mm_Oval_22.5deg:MountingHole_3.2x4.32mm_Oval_22.5deg"
 			(at 246.38 67.31 0)
 			(effects
 				(font
@@ -15087,7 +15243,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole_3.2x4.32mm_Oval_22.5deg:MountingHole_3.2x4.32mm_Oval_22.5deg_Ltop"
+		(property "Footprint" "MountingHole_3.2x4.32mm_Oval_22.5deg:MountingHole_3.2x4.32mm_Oval_22.5deg"
 			(at 246.38 62.23 0)
 			(effects
 				(font
@@ -15982,7 +16138,7 @@
 		(dnp no)
 		(uuid "4969ae0a-ed44-4123-ab5e-28fe9c5364f1")
 		(property "Reference" "J23"
-			(at 213.36 146.0499 0)
+			(at 212.598 138.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15991,7 +16147,7 @@
 			)
 		)
 		(property "Value" "GPIO only Rock Pi S"
-			(at 213.36 148.5899 0)
+			(at 212.598 140.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17810,7 +17966,7 @@
 		(dnp no)
 		(uuid "8b432273-650b-4a3c-bd27-974824f3bc6a")
 		(property "Reference" "J18"
-			(at 256.54 146.0499 0)
+			(at 256.286 135.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17819,7 +17975,7 @@
 			)
 		)
 		(property "Value" "GPIO only MilkV 1.8V"
-			(at 256.54 148.5899 0)
+			(at 256.286 137.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19419,7 +19575,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GPIO 3"
+		(property "Value" "IO 3"
 			(at 117.602 186.6646 0)
 			(effects
 				(font
@@ -20081,7 +20237,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GPIO 2"
+		(property "Value" "IO 2"
 			(at 76.962 186.6646 0)
 			(effects
 				(font
@@ -20265,6 +20421,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 254 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d63e0fb6-8b0a-4577-9e47-6b272cbac199")
+		(property "Reference" "J1"
+			(at 254 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "MilkV P43 (3.3V for VCCB)"
+			(at 270.256 162.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "StripBoard:StripBoard_1x01_P2.54mm"
+			(at 254 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 254 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "780f0152-4b9f-4001-b008-98857200306a")
+		)
+		(instances
+			(project ""
+				(path "/dc6b37fb-2353-4b5c-a157-7d8097df64c7"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 254 62.23 270)
 		(unit 1)
@@ -20292,7 +20513,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole_3.2x4.32mm_Oval_22.5deg:MountingHole_3.2x4.32mm_Oval_22.5deg_Rtop"
+		(property "Footprint" "MountingHole_3.2x4.32mm_Oval_22.5deg:MountingHole_3.2x4.32mm_Oval_22.5deg"
 			(at 254 62.23 0)
 			(effects
 				(font
@@ -20418,7 +20639,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GPIO 4"
+		(property "Value" "IO 4"
 			(at 158.242 186.6646 0)
 			(effects
 				(font

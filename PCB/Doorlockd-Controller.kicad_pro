@@ -66,6 +66,22 @@
         [
           "holes_co_located|196190000|64440000|07c942e9-836f-49a6-b533-cd64e0ee8383|d9608762-3590-42b2-842c-40cd63957560",
           ""
+        ],
+        [
+          "silk_over_copper|128657936|110612665|243ed1c5-b41c-464d-ac5b-85211ed7b2b1|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|141357936|100452665|8fda4769-de27-4f2c-905b-09117da35534|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|141357936|62352665|6654d57c-ae3c-43b4-b290-b71622c00b4f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|141357936|87752665|6d89b157-f0f7-4f3e-a3d7-fd08f1615b94|00000000-0000-0000-0000-000000000000",
+          ""
         ]
       ],
       "meta": {
@@ -677,6 +693,24 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Note",
+          "name": "Note",
+          "show": false
         }
       ],
       "filter_string": "",
