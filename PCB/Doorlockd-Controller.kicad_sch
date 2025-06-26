@@ -7005,9 +7005,9 @@
 		)
 		(uuid "1d75ea29-1a12-4dfc-a36d-1fa20d2608f4")
 	)
-	(text "Output 6 5V/Vin\n+ compatibilty section \nfor 1.8V of MilkV "
+	(text "Output 6 5V/Vin"
 		(exclude_from_sim no)
-		(at 99.822 103.886 0)
+		(at 99.06 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7026,6 +7026,16 @@
 			(justify left top)
 		)
 		(uuid "5087f354-40bc-43af-8d67-d0092c66d057")
+	)
+	(text "FET for 1.8V\nMilk-V outputs"
+		(exclude_from_sim no)
+		(at 25.4 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5b096dcc-4d03-4b1e-9d31-4163874fc88a")
 	)
 	(text "MilkV 1V8 GPIO pinout, \ncompatible with level shifter TXB0108 \n(https://www.adafruit.com/product/395)"
 		(exclude_from_sim no)
@@ -7069,9 +7079,9 @@
 		)
 		(uuid "8b19b768-77cd-4e36-96af-1d1b0a14fa4e")
 	)
-	(text "Output 5 5V/Vin\n+ compatibilty section \nfor 1.8V of MilkV "
+	(text "Output 5 5V/Vin"
 		(exclude_from_sim no)
-		(at 14.732 103.886 0)
+		(at 13.97 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7080,7 +7090,7 @@
 		)
 		(uuid "9038530b-8e13-49c3-85d3-c33782173ac7")
 	)
-	(text "Level shifter pinout:\nP29 VCCA (1V8)\nP27 OE   (0V)\nP43 VCCB (3V3)"
+	(text "Level shifter pinout:\nP29 VCCA (1V8 from GPIO)\nP27 OE   (0V)\nP43 VCCB (3V3)"
 		(exclude_from_sim no)
 		(at 259.842 144.78 0)
 		(effects
@@ -7091,7 +7101,7 @@
 		)
 		(uuid "9e934f40-f4c8-4d4c-ab08-fe8350b7cdfe")
 	)
-	(text "Proto-, Expiremental-, StripBoard area\n"
+	(text "Proto-, Experimental-, StripBoard area\n"
 		(exclude_from_sim no)
 		(at 214.884 77.724 0)
 		(effects
@@ -7143,6 +7153,16 @@
 			(justify left bottom)
 		)
 		(uuid "d6d49bed-3b0c-468a-94a5-f07a9990e724")
+	)
+	(text "FET for 1.8V\nMilk-V outputs"
+		(exclude_from_sim no)
+		(at 110.49 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e3e14750-b15d-4163-a581-3cb9794868f3")
 	)
 	(text "Generic In/Out \ninput: C 1uF, R 220\noutput C none, R (depends on LED / ?)"
 		(exclude_from_sim no)
@@ -17759,7 +17779,7 @@
 		(dnp no)
 		(uuid "88a339ab-d7e2-478d-bb2a-cf32ad6acffe")
 		(property "Reference" "JS3"
-			(at 264.16 96.52 0)
+			(at 265.43 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17774,6 +17794,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-5-5.08_1x05_P5.08mm_Horizontal"
@@ -18400,7 +18421,7 @@
 		(lib_id "Jumper:Jumper_3_Open")
 		(at 53.34 105.41 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -19630,7 +19651,7 @@
 		(lib_id "Jumper:Jumper_3_Open")
 		(at 138.43 105.41 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -20439,11 +20460,12 @@
 			)
 		)
 		(property "Value" "MilkV P43 (3.3V for VCCB)"
-			(at 270.256 162.306 0)
+			(at 256.54 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "StripBoard:StripBoard_1x01_P2.54mm"
@@ -20965,7 +20987,7 @@
 		(dnp no)
 		(uuid "f9d4bea8-73c6-4d51-83bd-f31386f54b8c")
 		(property "Reference" "J16"
-			(at 273.812 114.808 0)
+			(at 273.05 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20980,6 +21002,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "StripBoard:StripBoard_1x05_P2.54mm"
