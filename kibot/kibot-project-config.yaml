@@ -6,16 +6,6 @@
 # File cannot be empty, so define something
 globals: {}
 
-outputs:
- - name: 'schematic_pdf'
-   type: 'pdf_sch_print'
-   dir: './output_pdfs/'
-   options:
-     frame: true
-     all_pages: true
-     color_theme: 'light'
-     title: 'My Schematic'
-
 # Variant names use [], for nicer display on the title sheet
 # variants:
 #  - name: '[Shredder]'
