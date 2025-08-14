@@ -16024,7 +16024,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "220"
 			(at 33.02 132.334 90)
 			(effects
 				(font
@@ -18232,7 +18232,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "220"
 			(at 118.11 132.334 90)
 			(effects
 				(font

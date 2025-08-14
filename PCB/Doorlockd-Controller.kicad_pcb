@@ -11643,7 +11643,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "220"
 			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "2e690019-d604-4075-9965-6adc8b47fbb8")
@@ -21944,7 +21944,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "220"
 			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "5943e49d-bc0b-44ac-9e97-e3262634ccba")
