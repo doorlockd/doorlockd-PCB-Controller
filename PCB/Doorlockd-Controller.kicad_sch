@@ -13485,7 +13485,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole_3.2x4.32mm_Oval_22.5deg:MountingHole_3.2x4.32mm_Oval_22.5deg"
+		(property "Footprint" "MountingHole_Dual_3.2mm_M3_Offset1x0.5mm:MountingHole_Dual_3.2mm_M3_Offset1x0.5mm"
 			(at 254 67.31 0)
 			(effects
 				(font
@@ -14513,7 +14513,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MountingHole_3.2x4.32mm_Oval_22.5deg:MountingHole_3.2x4.32mm_Oval_22.5deg"
+		(property "Footprint" "MountingHole_Dual_3.2mm_M3_Offset1x0.5mm:MountingHole_Dual_3.2mm_M3_Offset1x0.5mm"
 			(at 246.38 67.31 0)
 			(effects
 				(font
@@ -15263,7 +15263,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole_3.2x4.32mm_Oval_22.5deg:MountingHole_3.2x4.32mm_Oval_22.5deg"
+		(property "Footprint" "MountingHole_Dual_3.2mm_M3_Offset1x0.5mm:MountingHole_Dual_3.2mm_M3_Offset1x0.5mm"
 			(at 246.38 62.23 0)
 			(effects
 				(font
@@ -20535,7 +20535,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole_3.2x4.32mm_Oval_22.5deg:MountingHole_3.2x4.32mm_Oval_22.5deg"
+		(property "Footprint" "MountingHole_Dual_3.2mm_M3_Offset1x0.5mm:MountingHole_Dual_3.2mm_M3_Offset1x0.5mm"
 			(at 254 62.23 0)
 			(effects
 				(font
