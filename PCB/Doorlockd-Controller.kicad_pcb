@@ -18004,7 +18004,7 @@
 				)
 			)
 		)
-		(property "Value" "STU60N3LH5"
+		(property "Value" "STD12NF06L-1"
 			(at 2.286 2.15 0)
 			(layer "F.Fab")
 			(uuid "6db8726b-5991-4304-850c-25db5957beed")
@@ -22454,7 +22454,7 @@
 				)
 			)
 		)
-		(property "Value" "STU60N3LH5"
+		(property "Value" "STD12NF06L-1"
 			(at 2.286 2.15 0)
 			(layer "F.Fab")
 			(uuid "3ddccf7e-c73e-44fd-92f5-646ed565f59e")

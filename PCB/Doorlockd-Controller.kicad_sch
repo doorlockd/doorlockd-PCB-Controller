@@ -13945,7 +13945,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STU60N3LH5"
+		(property "Value" "STD12NF06L-1"
 			(at 139.7 129.032 0)
 			(effects
 				(font
@@ -14570,7 +14570,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STU60N3LH5"
+		(property "Value" "STD12NF06L-1"
 			(at 54.61 129.032 0)
 			(effects
 				(font
