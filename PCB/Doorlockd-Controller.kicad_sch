@@ -5,13 +5,10 @@
 	(uuid "dc6b37fb-2353-4b5c-a157-7d8097df64c7")
 	(paper "A4")
 	(title_block
-		(title "Doorlockd-Controller (Rock pi-S/Milk-V duo S)")
+		(title "Doorlockd Controller PCB")
 		(date "2025-06-17")
-		(rev "v2.0")
-		(comment 1 "author: Diederik Hamelink")
-		(comment 2 "CC BY 4.0")
-		(comment 3 "github.com/doorlockd")
-		(comment 4 "de WAR")
+		(comment 1 "Copyright 2025 Diederik Hamelink (wie-niet) & Matthijs Kooijman")
+		(comment 2 "Licensed under CERN-OHL-P v2 or any later version")
 	)
 	(lib_symbols
 		(symbol "Connector:Barrel_Jack_Switch"
@@ -10262,7 +10259,7 @@
 		(uuid "fe6e22e9-a627-468d-8e00-9f277f320b3f")
 	)
 	(image
-		(at 265.43 173.99)
+		(at 265.43 171.45)
 		(scale 2)
 		(uuid "080a6b97-dc46-45ae-8130-5757f82c1d49")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAA8JJREFU"
@@ -13396,7 +13393,7 @@
 	)
 	(symbol
 		(lib_id "Graphic:Logo_Open_Hardware_Small")
-		(at 275.59 175.26 0)
+		(at 275.59 172.72 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -13404,7 +13401,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cd22ef9")
 		(property "Reference" "#LOGO1"
-			(at 275.59 168.275 0)
+			(at 275.59 165.735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13413,7 +13410,7 @@
 			)
 		)
 		(property "Value" "Logo_Open_Hardware_Small"
-			(at 275.59 180.975 0)
+			(at 275.59 178.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13422,7 +13419,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 275.59 175.26 0)
+			(at 275.59 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13431,7 +13428,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 275.59 175.26 0)
+			(at 275.59 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13440,7 +13437,7 @@
 			)
 		)
 		(property "Description" "Open Hardware logo, small"
-			(at 275.59 175.26 0)
+			(at 275.59 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)

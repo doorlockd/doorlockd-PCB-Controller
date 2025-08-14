@@ -8,13 +8,10 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "Doorlockd-Controller (Rock pi-S/Milk-V duo S)")
+		(title "Doorlockd Controller PCB")
 		(date "2025-05-13")
-		(rev "v2.00.0")
-		(comment 1 "author: Diederik Hamelink")
-		(comment 2 "CC BY 4.0")
-		(comment 3 "github.com/doorlockd")
-		(comment 4 "de WAR")
+		(comment 1 "Copyright 2025 Diederik Hamelink (wie-niet) & Matthijs Kooijman")
+		(comment 2 "Licensed under CERN-OHL-P v2 or any later version")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -24948,7 +24945,7 @@
 			)
 		)
 	)
-	(gr_text "github.com/doorlockd\nwie-niet + De WAR\nCC BY 4.0"
+	(gr_text "github.com/doorlockd\nDe War - Diederik\nCERN-OHL-P v2+"
 		(at 124.67 147.28 0)
 		(layer "F.SilkS")
 		(uuid "d1dac4cd-2dde-4079-ab4b-0f185e3d84bf")
