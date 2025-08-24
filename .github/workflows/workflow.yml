@@ -14,3 +14,6 @@ jobs:
   workflow:
     uses: matthijskooijman/PCB-workflows/.github/workflows/dispatcher.yml@30750cde05d8d8c008f6963048fa711d3aa0cace
     secrets: inherit
+    permissions:
+      # Allow write access to create a release
+      contents: write
