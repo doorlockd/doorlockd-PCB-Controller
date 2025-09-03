@@ -12,7 +12,7 @@ on:
 
 jobs:
   workflow:
-    uses: matthijskooijman/PCB-workflows/.github/workflows/dispatcher.yml@30750cde05d8d8c008f6963048fa711d3aa0cace
+    uses: matthijskooijman/PCB-workflows/.github/workflows/dispatcher.yml@7bacc0f868624a7b6d1a76ca7f04f7b528d1fd7f
     secrets: inherit
     permissions:
       # Allow write access to create a release
