@@ -13951,7 +13951,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:SIPAK_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-251-3_Vertical"
 			(at 140.97 124.46 0)
 			(effects
 				(font
@@ -14576,7 +14576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:SIPAK_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-251-3_Vertical"
 			(at 55.88 124.46 0)
 			(effects
 				(font
