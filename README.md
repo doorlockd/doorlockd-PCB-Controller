@@ -82,6 +82,13 @@ The other sheets in the spreadsheet file provide are similar, but
 start from the pins on the Milk-V and Rock Pi boards, instead of the
 doorlockd controller PCB.
 
+### Board selection jumpers
+Some fixed-function pins (audio and card reader UART) are not (all)
+available on the same place on both boards. For this reason jumpers JP4
+and JP5 must be configured for the board used. If the jumpers are wrong,
+the card reader RX and TX will be swapped, and the audio left channel
+will be connected to 5V or a mic input channel.
+
 ### 3.3V and 1.8V pins
 On the Rock Pi S all pins (except ADC) operate at 3.3V, but the Milk-V
 Duo S has both 3.3V and 1.8V pins, so care should be taken when using
