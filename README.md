@@ -15,7 +15,7 @@ other software running on the same Linux boards.
 See the [doorlockd organization page](https://github.com/doorlockd/) for
 some info about the system in practice.
 
-![3D rendering of PCB](Docs/3D view.png)
+![3D rendering of PCB](Docs/3D%20view.png)
 
 ## Features
 
