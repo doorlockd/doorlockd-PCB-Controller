@@ -15137,7 +15137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Note" "Lumberg 1503 30 and 07 are pin-compatible"
+		(property "Note" "Lumberg 1503 30 and 07 have same footprint (but different pinout!)"
 			(at 160.02 22.86 0)
 			(effects
 				(font

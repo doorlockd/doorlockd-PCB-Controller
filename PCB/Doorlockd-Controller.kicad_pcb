@@ -3374,7 +3374,7 @@
 				)
 			)
 		)
-		(property "Note" "Lumberg 1503 30 and 07 are pin-compatible"
+		(property "Note" "Lumberg 1503 30 and 07 have same footprint (but different pinout!)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
