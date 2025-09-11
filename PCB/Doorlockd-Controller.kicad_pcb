@@ -24802,7 +24802,7 @@
 					(justify left)
 				)
 			)
-			(table_cell "P19  SPI SDO"
+			(table_cell "P19  SPI MOSI"
 				(start 142.38 69.6)
 				(end 158.81 72.14)
 				(margins 1.0025 1.0025 1.0025 1.0025)
@@ -24830,7 +24830,7 @@
 					(justify left)
 				)
 			)
-			(table_cell "P21  SPI SDI"
+			(table_cell "P21  SPI MISO"
 				(start 142.38 72.14)
 				(end 158.81 74.68)
 				(margins 1.0025 1.0025 1.0025 1.0025)
