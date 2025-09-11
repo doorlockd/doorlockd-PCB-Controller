@@ -24189,7 +24189,7 @@
 		(layer "F.Fab")
 		(uuid "0fd25e5e-70f2-491e-9fd6-a8d0c0ec6fe3")
 	)
-	(gr_text "${BOARD_REVISION}\n${COMPONENTS_DATE}\n "
+	(gr_text "${BOARD_REVISION}\n\n "
 		(at 146.14 148.36 0)
 		(layer "F.SilkS")
 		(uuid "00000000-0000-0000-0000-00005d77b0d2")
