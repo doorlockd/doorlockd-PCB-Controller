@@ -7034,7 +7034,7 @@
 		)
 		(uuid "5b096dcc-4d03-4b1e-9d31-4163874fc88a")
 	)
-	(text "MilkV 1V8 GPIO pinout, \ncompatible with level shifter TXB0108 \n(https://www.adafruit.com/product/395)"
+	(text "MilkV 1V8 GPIO pinout, \nUsable with level shifters"
 		(exclude_from_sim no)
 		(at 255.27 131.064 0)
 		(effects
@@ -7087,9 +7087,9 @@
 		)
 		(uuid "9038530b-8e13-49c3-85d3-c33782173ac7")
 	)
-	(text "Level shifter pinout:\nP29 VCCA (1V8 from GPIO)\nP27 OE   (0V)\nP43 VCCB (3V3)"
+	(text "8-channel level shifter pinout\ne.g. adafruit.com/product/395\n  P29 VCCA (1V8 from GPIO)\n  P43 VCCB (3V3)\n  P27 OE   (LOW to enable)\n\n4-channel level shifter pinout\ne.g. adafruit.com/product/1875\n  P29 VCCA (1V8 from GPIO)\n  P43 VCCB (3V3)\n  P41 OE   (LOW to enable)\n"
 		(exclude_from_sim no)
-		(at 259.842 144.78 0)
+		(at 257.81 149.86 0)
 		(effects
 			(font
 				(size 1.016 1.016)
