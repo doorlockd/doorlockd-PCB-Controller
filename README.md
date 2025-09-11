@@ -45,11 +45,44 @@ This PCB provides:
    board).
  - Stripboard area for custom extra peripherals.
 
-## Pinout (and 1.8V pins)
-
+## Pinout
 Because the board supports two different linux board, the actual pinout
 differs based on the board used.
 
+The pins near the stripboard are intended for future experiments. The
+pins to the right of the stripboard are either generic GPIO pins, or
+dedicated function (SPI and I²C) pins that have the same function both
+boards. All these pins support 3.3V (except for P26, which an 1.8V ADC
+pin on the Rock Pi).
+
+The pins below the stripboard are divided into a separate header for
+each of the boards, since what is an IO pin on one board could be a GND
+or some other special-function pin on the other. The Milk-V pins below
+the stripboard only support up to 1.8V (see below).
+
+The spreadsheet in this repository gives an overview of all pins
+available on the board, where they are connected on both types of
+board and what pin functions are available on those pins.
+
+In the spreadsheet, the "doorlockd-PCB-Controller" is the main sheet to
+use. This lists all the pins on the controller PCB, along with the pin
+on U2 (Rock pi S or Milk-V Duo S) that it is connected to. To the right
+there are two sections, one for each board, showing the name that the
+board gives to that pin, and the available pin functions.
+
+For the pin functions, three columns are available. The first column
+shows a filter expression, such as `*GPIO*` and the second column shows
+all pin functions (on that pin) that match the filter. The third column
+is similar, except that the filter is taken from the column header (so
+you can filter all pins at the same time to find a particular pin
+function). You can use the `*` filter to list all available pin
+functions.
+
+The other sheets in the spreadsheet file provide are similar, but
+start from the pins on the Milk-V and Rock Pi boards, instead of the
+doorlockd controller PCB.
+
+### 3.3V and 1.8V pins
 On the Rock Pi S all pins (except ADC) operate at 3.3V, but the Milk-V
 Duo S has both 3.3V and 1.8V pins, so care should be taken when using
 those pins. These 1.8V pins are used on the high-current FET inputs
@@ -64,14 +97,20 @@ side plugging into J18 and the high side into stripboard pins.
 For example, using [this 8-channel shifter from
 Adafruit](https://www.adafruit.com/product/395), using J18-1 (P29) as
 VCCA and J18-10 (P27) as OE (configuring P29 as output high and P27 as
-output low).
+output low). Pin P43 is available nearby to be used for VCCB. Similarly,
+[this 4-channel shfiter](https://www.adafruit.com/product/1875) can also
+be used.
 
-On both boards, the ADC pins (see pin table) support up to 1.8V only.
+### ADC pins
+On both boards, once ADC pin is available.
 
-Near the stripboard, I2C, UART and SPI are available, but check the
-table for the exact pinout for both controller boards.
+Rock pi has P26, located to the right of the stripboard. This pin is not
+usable as a GPIO.
 
-TODO: Add pin table
+Milk-V has P46, located below the stripboard. This pin can also be used
+as a GPIO.
+
+On both boards, the ADC pins support up to 1.8V only.
 
 ## Housing
 PCB dimensions: 132×103mm
