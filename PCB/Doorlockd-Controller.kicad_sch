@@ -5,7 +5,7 @@
 	(uuid "dc6b37fb-2353-4b5c-a157-7d8097df64c7")
 	(paper "A4")
 	(title_block
-		(title "Doorlockd Controller PCB")
+		(title "Doorlockd PCB Controller")
 		(date "2025-06-17")
 		(comment 1 "Copyright 2025 Diederik Hamelink (wie-niet) & Matthijs Kooijman")
 		(comment 2 "Licensed under CERN-OHL-P v2 or any later version")
