@@ -149,12 +149,12 @@
 			)
 		)
 	)
-	(pad "1" thru_hole oval
+	(pad "" np_thru_hole oval
 		(at 0.5 -0.25 26.5)
-		(size 7.52 6.4)
+		(size 4.32 3.2)
 		(drill oval 4.32 3.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "F&B.Cu" "*.Mask")
+		(zone_connect 0)
 		(uuid "2e725780-237c-4fda-97a3-244c6ef08a3f")
 	)
 	(embedded_fonts no)
